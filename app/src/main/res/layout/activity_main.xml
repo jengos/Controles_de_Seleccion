@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Controles de Selección en Android"
+        android:textColor="#0C4176"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:layout_marginVertical="20dp"/>
+    <ImageView
+        android:id="@+id/imagenLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginVertical="20dp"
+        android:contentDescription="Componentes de Selección Android"
+        app:srcCompat="@android:drawable/sym_def_app_icon"/>
+    <Button
+        android:id="@+id/botonSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listas Desplegables (Spinner)"
+        android:background="#C5DCF3"
+        android:textSize="8pt"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/botonListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listas Fijas (ListView)"
+        android:background="#3E64F0"
+        android:textSize="8pt"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/botonGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tabla de Selección (GridView)"
+        android:background="#F0F981"
+        android:textSize="8pt"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
